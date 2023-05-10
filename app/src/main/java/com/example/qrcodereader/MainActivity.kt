@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // 뷰 바인딩
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         val view = binding.root
